@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#0f3460"
+    android:padding="15dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tvWeaponName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AK47"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#ff6b35" />
+
+    <TextView
+        android:id="@+id/tvWeaponType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assault Rifle"
+        android:textSize="12sp"
+        android:textColor="#00d4ff"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/tvWeaponDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="High damage, good range"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/tvDamage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Damage: 95"
+        android:textSize="12sp"
+        android:textColor="#ff6b35"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>
